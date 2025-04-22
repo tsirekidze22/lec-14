@@ -1,0 +1,51 @@
+html {
+  font-size: 100%; /* 1rem = 16px */
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.card {
+  width: 10rem;
+  height: 15rem;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 80%; /* 1rem = 12.8px */
+  }
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-danger {
+  color: rgb(211, 16, 16);
+}
+
+.gap-1 {
+  column-gap: 4px;
+}
+.gap-2 {
+  column-gap: 8px;
+}
+.gap-3 {
+  column-gap: 16px;
+}
+.gap-4 {
+  column-gap: 24px;
+}
+.gap-5 {
+  column-gap: 48px;
+}

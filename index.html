@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap5</title>
+    <!--<link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />-->
+  </head>
+  <body>
+    <ul
+      class="list-unstyled d-flex gap-2 justify-content-center align-items-center gx-3"
+    >
+      <li>Home</li>
+      <li><a href="#about">About</a></li>
+      <li>Projects</li>
+      <li>Contact</li>
+    </ul>
+    <section class="container">
+      <div class="row">
+        <div class="col-1 text-white bg-primary">1</div>
+        <div class="col-1 text-white bg-primary">2</div>
+        <div class="col-1 text-white bg-primary">3</div>
+        <div class="col-1 text-white bg-primary">4</div>
+        <div class="col-1 text-white bg-primary">5</div>
+        <div class="col-1 text-white bg-primary">6</div>
+        <div class="col-1 text-white bg-primary">7</div>
+        <div class="col-1 text-white bg-primary">8</div>
+        <div class="col-1 text-white bg-primary">9</div>
+        <div class="col-1 text-white bg-primary">10</div>
+        <div class="col-1 text-white bg-primary">11</div>
+        <div class="col-1 text-white bg-primary">12</div>
+      </div>
+      <div class="row my-5 justify-content-between gx-3">
+        <div class="col-6">
+          <div class="p-4 text-white bg-primary">1</div>
+        </div>
+        <div class="col-6">
+          <div class="p-4 text-white bg-success">2</div>
+        </div>
+      </div>
+      <div class="row my-5 justify-content-between">
+        <div class="col-5">
+          <div class="p-4 text-white bg-primary">1</div>
+        </div>
+        <div class="col-5">
+          <div class="p-4 text-white bg-success">2</div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-10 d-flex justify-content-between bg-secondary">
+          <div class="">
+            <div class="p-4 text-white">Logo</div>
+          </div>
+          <div class="">
+            <div class="p-4 text-white">Navigation</div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="p-4 text-white bg-danger">Sign In/Up</div>
+        </div>
+      </div>
+      <div class="row my-5 justify-content-between g-2">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="p-4 text-white bg-primary">1</div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="p-4 text-white bg-success">2</div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="p-4 text-white bg-danger">3</div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="p-4 text-white bg-secondary">4</div>
+        </div>
+      </div>
+      <div class="row my-5 justify-content-between">
+        <div class="col-12 col-md-6 col-lg-2">
+          <div class="p-4 text-white bg-primary">1</div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-2">
+          <div class="p-4 text-white bg-success">2</div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-2">
+          <div class="p-4 text-white bg-danger">3</div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-2">
+          <div class="p-4 text-white bg-secondary">4</div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-2">
+          <div class="p-4 text-white bg-secondary">4</div>
+        </div>
+      </div>
+    </section>
+
+    <!--margin: 0px-->
+    <!-- m-1 = margin: 0.25rem = 4px; -->
+    <!-- m-2 = margin: 0.5rem = 8px; -->
+    <!-- m-3 = margin: 1rem = 16px; -->
+    <!-- m-4 = margin: 1.5rem = 24px; -->
+    <!-- m-5 = margin: 3rem = 48px; -->
+    <!--margin-top - mt -->
+    <!--margin-right - me -->
+    <!--margin-bottom - mb -->
+    <!--margin-left - ms -->
+
+    <h1 class="text-white bg-success m-1 mt-3 me-2 mb-5 ms-1 mx-auto my-0">
+      Hello World - 1
+    </h1>
+    <h2 class="text-danger bg-primary p-5 m-3">Hello World - 2</h2>
+
+    <section class="container">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+
+    <section id="about">
+      <h3>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias dicta
+        enim aliquam atque possimus aut ea recusandae dolore, qui voluptates,
+        iusto officia eaque deleniti labore magni nam aspernatur porro, nisi
+        magnam pariatur amet veritatis. Voluptatum magni dolorem incidunt
+        dolores sunt doloremque assumenda totam ullam vitae cum? Magnam omnis
+        reprehenderit nam at quisquam tempore corrupti iste hic eius? Culpa
+        quibusdam, exercitationem ex sunt hic temporibus asperiores esse.
+        Consequatur, hic tenetur fugiat deleniti ipsa ratione ea voluptates quam
+        esse eligendi libero ipsam debitis, a ducimus id eveniet obcaecati. Id,
+        dignissimos nulla! Consequatur, alias vitae? Impedit ducimus quasi eius
+        non laudantium sit magni repellat dolores sint alias quaerat et modi
+        reiciendis at odio enim, harum, ut nisi placeat qui fuga voluptatibus
+        aliquid perspiciatis veritatis. Exercitationem cum id maiores tenetur
+        odit debitis minima distinctio. Inventore repudiandae amet culpa in ad
+        recusandae, nostrum quae. Perferendis nobis officiis rerum neque earum
+        odio recusandae rem! Odit voluptatibus voluptas atque amet perferendis,
+        illo, nemo at deleniti asperiores cum possimus? Quas rem libero labore
+        laudantium provident unde exercitationem, inventore, itaque quibusdam
+        assumenda corrupti nostrum cum iusto nesciunt distinctio ipsa. Saepe
+        adipisci ducimus totam officia suscipit ex illo doloribus quisquam.
+      </h3>
+    </section>
+
+    <button type="button" class="btn sign-in">Sign In</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+
+    <button type="button" class="btn btn-link">Link</button>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
